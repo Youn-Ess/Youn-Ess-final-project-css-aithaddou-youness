@@ -11856,8 +11856,126 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-h1, .h1 {
-  color: red;
+.main .carousel .div11 .img-slider1 {
+  background-image: url(../../../../public/img/slider.jpg);
+  height: 100vh;
+}
+.main .carousel .div11 .img-slider1 .text-area {
+  width: 40vw;
+}
+.main .carousel .div11 .img-slider2 {
+  background-image: url(../../../../public/img/slider2.jpg);
+  height: 100vh;
+}
+.main .carousel .div11 .img-slider2 .text-area {
+  width: 40vw;
+}
+.main .carousel .div11 .img-slider3 {
+  background-image: url(../../../../public/img/slider3.jpg);
+  height: 100vh;
+}
+.main .carousel .div11 .img-slider3 .text-area {
+  width: 40vw;
+}
+.main .section1 {
+  padding: 5vh 0;
+}
+.main .section1 .div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .section1 .div1 h1, .main .section1 .div1 .h1 {
+  padding-top: 5vh;
+  width: 45vw;
+  text-align: center;
+}
+.main .section1 .div1 img {
+  padding: 3vh 0;
+}
+.main .section1 .div1 p {
+  width: 35vw;
+  text-align: center;
+}
+.main .section1 .div2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 5vh 10vw;
+}
+.main .section1 .div2 div {
+  height: 35vh;
+  width: 23vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .section1 .div2 div i {
+  font-size: 50px;
+  border: 1px solid rgba(128, 128, 128, 0.521);
+  border-radius: 50%;
+  padding: 30px;
+  color: rgb(8, 56, 128);
+}
+.main .section1 .div2 div p {
+  text-align: center;
+}
+.main .section2 {
+  position: relative;
+}
+.main .section2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 102, 255, 0.329);
+  height: 40vh;
+  width: 100%;
+}
+.main .section2 .background-img {
+  padding: 5vh 5vw;
+  background-image: url(../../../../public/img/blockqoute-bg.jpg);
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+.main .section2 .background-img .area {
+  z-index: 4;
+}
+.main .section2 .background-img .area i {
+  font-size: 35px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 25px;
+}
+.main .section2 .background-img .area h1, .main .section2 .background-img .area .h1 {
+  color: white;
+}
+.main .section2 .background-img .area p {
+  color: white;
+}
+.main .section3 {
+  padding: 5vh 0;
+}
+.main .section3 .div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .section3 .div1 h1, .main .section3 .div1 .h1 {
+  padding-top: 5vh;
+  width: 45vw;
+  text-align: center;
+}
+.main .section3 .div1 img {
+  padding: 3vh 0;
+}
+.main .section3 .div1 p {
+  width: 35vw;
+  text-align: center;
+}
+.main .section3 .div2 .text-area {
+  height: 45vh;
 }
 
 /*# sourceMappingURL=app.css.map */

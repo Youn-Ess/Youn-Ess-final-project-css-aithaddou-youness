@@ -1,17 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
+
 <body>
-    
-    <h1>hello</h1>
+    <headr class="header">
+        <nav class="navbar fixed-top py-lg-0 navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./public/img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="div1 collapse navbar-collapse" id="navbarText">
+                    <ul class="ul1 navbar-nav ms-auto me-auto gap-lg-3 d-lg-flex align-items-lg-center">
+
+                        <li class="li1 dropdown ">
+                            <a class="nav-link dropdown-toggle text-dark py-lg-3" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="#">Action</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark py-lg-3" href="#">Doctos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark py-lg-3" href="#">Services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark py-lg-3" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-dark py-lg-3" href="#">Action</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark py-lg-3" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-dark py-lg-3" href="#">Action</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark py-lg-3" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text ">
+                        <button class="btn btn-primary p-lg-3" type="submit">Book appointment</button>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </headr>
+
+
+    <main class="main">
+        <!-- todo carousel Start -->
+        <div id="carouselExample" class="carousel slide">
+            <div class="div1 carousel-inner">
+                <div class="div11 carousel-item active">
+                    <div class="img-slider1 d-lg-flex align-items-lg-center ps-lg-5">
+                        <div class="text-area ps-lg-5">
+                            <h1 class="">We Provide <span class="text-bleu">Medical</span> Services That
+                                You Can <span class="text-bleu">Trust!</span></h1>
+                            <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+                                repellendus
+                                voluptate temporibus nostrum aut alias.</p>
+                            <div class="d-flex gap-3">
+                                <button class="btn btn-primary p-lg-3">Get Appointment</button>
+                                <button class="btn btn-dark text-white p-lg-3">About us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div11 carousel-item">
+                    <div class="img-slider2 d-lg-flex align-items-lg-center ps-lg-5">
+                        <div class="text-area ps-lg-5">
+                            <h1 class="">We Provide <span class="text-bleu">Medical</span> Services That
+                                You Can <span class="text-bleu">Trust!</span></h1>
+                            <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+                                repellendus
+                                voluptate temporibus nostrum aut alias.</p>
+                            <div class="d-flex gap-3">
+                                <button class="btn btn-primary p-lg-3">Get Appointment</button>
+                                <button class="btn btn-dark text-white p-lg-3">About us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div11 carousel-item ">
+                    <div class="img-slider3 d-lg-flex align-items-lg-center ps-lg-5">
+                        <div class="text-area ps-lg-5">
+                            <h1 class="">We Provide <span class="text-bleu">Medical</span> Services That
+                                You Can <span class="text-bleu">Trust!</span></h1>
+                            <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+                                repellendus
+                                voluptate temporibus nostrum aut alias.</p>
+                            <div class="d-flex gap-3">
+                                <button class="btn btn-primary p-lg-3">Get Appointment</button>
+                                <button class="btn btn-dark text-white p-lg-3">About us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-primary rounded-circle p-4" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-primary rounded-circle p-4" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- todo carousel End -->
+
+        <!-- ? Section1 Start -->
+        <div class="section1">
+            <div class="div1">
+                <h1>We Are Always Ready To Help You & Your Family</h1>
+                <img src="./public/img/section-img.png" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto soluta, distinctio doloremque quis
+                    obcaecati sapiente laborum pariatur voluptate!</p>
+            </div>
+            <div class="div2">
+                <div>
+                    <i class="fa-solid fa-stethoscope"></i>
+                    <h3>Emergency Help</h3>
+                    <p>Lorem ipsum sit, consectetur adipiscing elit Maecenas mi quam vulputate.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-stethoscope"></i>
+                    <h3>Enriched Pharmecy</h3>
+                    <p>Lorem ipsum sit, consectetur adipiscing elit Maecenas mi quam vulputate.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-stethoscope"></i>
+                    <h3>Medical Treatment</h3>
+                    <p>Lorem ipsum sit, consectetur adipiscing elit Maecenas mi quam vulputate.</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- ? Section1 End -->
+        <!-- ! Section2 Start -->
+        <div class="section2">
+            <div class="background-img back-color d-lg-flex justify-content-lg-evenly align-items-lg-center ">
+                <div class="area d-flex align-items-center">
+                    <i class="fa-solid fa-house"></i>
+                    <div class="ps-4">
+                        <h1 class="m-0">3468</h1>
+                        <p class="m-0">Hospital Rooms</p>
+                    </div>
+                </div>
+                <div class="area d-flex align-items-center">
+                    <i class="fa-solid fa-house"></i>
+                    <div class="ps-4">
+                        <h1 class="m-0">3468</h1>
+                        <p class="m-0">Hospital Rooms</p>
+                    </div>
+                </div>
+                <div class="area d-flex align-items-center">
+                    <i class="fa-solid fa-house"></i>
+                    <div class="ps-4">
+                        <h1 class="m-0">3468</h1>
+                        <p class="m-0">Hospital Rooms</p>
+                    </div>
+                </div>
+                <div class="area d-flex align-items-center">
+                    <i class="fa-solid fa-house"></i>
+                    <div class="ps-4">
+                        <h1 class="m-0">3468</h1>
+                        <p class="m-0">Hospital Rooms</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- ! Section2 End -->
+        <!-- ! Section3 Start -->
+        <div class="section3">
+            <div class="div1">
+                <h1>We Offer Different Services To Improve Your Health</h1>
+                <img src="./public/img/section-img.png" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto soluta, distinctio doloremque quis
+                    obcaecati sapiente laborum pariatur voluptate!</p>
+            </div>
+            <div class="div2 container d-lg-flex align-items-lg-center py-5 ">
+                <div class="text-area d-lg-flex flex-lg-column justify-content-lg-around">
+                    <h2>Who We Are</h2>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nostrum
+                        iure? Reiciendis
+                        repudiandae porro aspernatur architecto sapiente soluta accusantium ea!</p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quam et
+                        voluptate, nemo illo
+                        consequatur.</p>
+                    <div class="text-area2 d-lg-flex gap-5">
+                        <div class="left-side">
+                            <div class="d-lg-flex align-items-lg-center gap-2">
+                                <i class="fa-solid fa-right-to-bracket"></i>
+                                <p class="m-0 text-secondary">Maecenas vitae luctus nibh.</p>
+                            </div>
+                            <div class="d-lg-flex align-items-lg-center gap-2">
+                                <i class="fa-solid fa-right-to-bracket"></i>
+                                <p class="m-0 text-secondary">Maecenas vitae luctus nibh.</p>
+                            </div>
+                            <div class="d-lg-flex align-items-lg-center gap-2">
+                                <i class="fa-solid fa-right-to-bracket"></i>
+                                <p class="m-0 text-secondary">Maecenas vitae luctus nibh.</p>
+                            </div>
+                        </div>
+                        <div class="right-side">
+                            <div class="d-lg-flex align-items-lg-center gap-2">
+                                <i class="fa-solid fa-right-to-bracket"></i>
+                                <p class="m-0 text-secondary">Maecenas vitae luctus nibh.</p>
+                            </div>
+                            <div class="d-lg-flex align-items-lg-center gap-2">
+                                <i class="fa-solid fa-right-to-bracket"></i>
+                                <p class="m-0 text-secondary">Maecenas vitae luctus nibh.</p>
+                            </div>
+                            <div class="d-lg-flex align-items-lg-center gap-2">
+                                <i class="fa-solid fa-right-to-bracket"></i>
+                                <p class="m-0 text-secondary">Maecenas vitae luctus nibh.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <video width="600" height="400" src="./public/videos/video.mp4" controls autoplay></video>
+                </div>
+            </div>
+        </div>
+        <!-- ! Section3 End -->
+        
+    </main>
+
+
 
 
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
