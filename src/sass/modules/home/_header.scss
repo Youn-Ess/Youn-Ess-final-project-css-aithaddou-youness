@@ -1,2 +1,36 @@
-.header {}
+.header {
+    .navebar {
+        .div1 {
+            .ul1 {
+                a {
+                    font-family: R-medium;
+                    position: relative;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        bottom: -18%;
+                        left: 0;
+                        height: 4px;
+                        width: 0;
+                        transition: 0.3s;
+                        background: blue;
+                    }
+                    &:hover::after{
+                        width: 100%;
+                    }
+                }
+
+
+            }
+
+
+        }
+    }
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 15%;
+}
 

@@ -1,0 +1,91 @@
+footer {
+    background-color: $l-blue;
+
+    .container {
+        padding: 15vh 0;
+
+        .area:nth-child(2) {
+
+            .div1 {
+
+                gap: 3vw;
+                ul {
+                    width: 50%;
+                    list-style-type: none;
+                    padding: 0;
+                    margin: 0;
+
+                    li {
+                        color: white;
+                        transition: 0.3s;
+
+                        i {
+                            font-size: 11px;
+                            padding-right: 9px;
+                        }
+
+                        &:hover {
+                            padding-left: 0.5vw;
+                        }
+                    }
+
+                }
+            }
+        }
+
+
+        .area:nth-child(4) {
+            .div1 {
+                .div11 {
+                    input {
+                        width: 14vw;
+                        height: 7vh;
+                        padding: 1vh 1vw;
+                        border: 1px solid white;
+                        border-radius: 4px 0 0 4px;
+                        background-color: transparent;
+
+                        &::placeholder {
+                            color: white;
+                        }
+                    }
+
+                    i {
+                        color: $l-blue;
+                        text-align: center;
+                        font-size: 25px;
+                        width: 3vw;
+                        height: 7vh;
+                        border: 1px solid white;
+                        border-radius: 0 4px 4px 0;
+                        background-color: white;
+                        padding: 1.5vh 0;
+                    }
+                }
+            }
+        }
+
+        .area {
+            width: 18vw;
+
+            h3 {
+                padding-bottom: 30px;
+            }
+
+            .div1 {
+                height: 25vh;
+
+                .i1 {
+                    color: white;
+                    font-size: 15px;
+                    border: 1px solid white;
+                    border-radius: 50%;
+                    padding: 10px;
+
+                }
+            }
+
+
+        }
+    }
+}

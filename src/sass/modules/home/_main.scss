@@ -10,6 +10,24 @@
                 .text-area {
                     width: 40vw;
 
+                    h1 {
+                        font-family: R-black;
+                    }
+
+                    p {
+                        font-family: R-light;
+                    }
+
+                    div {
+                        button:first-child {
+                            width: 15vw;
+                        }
+
+                        button:last-child {
+                            width: 7vw;
+                        }
+                    }
+
                 }
             }
 
@@ -19,6 +37,24 @@
 
                 .text-area {
                     width: 40vw;
+
+                    h1 {
+                        font-family: R-black;
+                    }
+
+                    p {
+                        font-family: R-light;
+                    }
+
+                    div {
+                        button:first-child {
+                            width: 15vw;
+                        }
+
+                        button:last-child {
+                            width: 7vw;
+                        }
+                    }
                 }
             }
 
@@ -28,6 +64,24 @@
 
                 .text-area {
                     width: 40vw;
+
+                    h1 {
+                        font-family: R-black;
+                    }
+
+                    p {
+                        font-family: R-light;
+                    }
+
+                    div {
+                        button:first-child {
+                            width: 15vw;
+                        }
+
+                        button:last-child {
+                            width: 7vw;
+                        }
+                    }
                 }
             }
         }
@@ -45,6 +99,8 @@
             align-items: center;
 
             h1 {
+                color: $dark-gray;
+                font-family: R-medium;
                 padding-top: 5vh;
                 width: 45vw;
                 text-align: center;
@@ -55,6 +111,7 @@
             }
 
             p {
+                font-family: R-light;
                 width: 35vw;
                 text-align: center;
             }
@@ -78,10 +135,17 @@
                     border: 1px solid rgba(128, 128, 128, 0.521);
                     border-radius: 50%;
                     padding: 30px;
-                    color: rgb(8, 56, 128);
+                    color: $l-blue;
+                }
+
+                h3 {
+                    color: $dark-gray;
+                    font-family: R-medium;
                 }
 
                 p {
+                    font-family: R-light;
+                    color: $light-gray;
                     text-align: center;
                 }
             }
@@ -93,7 +157,7 @@
     .section2 {
         position: relative;
 
-        &::before {           
+        &::before {
             content: '';
             position: absolute;
             bottom: 0;
@@ -109,10 +173,11 @@
             background-repeat: no-repeat;
             height: 40vh;
 
-            
+
 
             .area {
                 z-index: 4;
+
                 i {
                     font-size: 35px;
                     color: white;
@@ -122,10 +187,12 @@
                 }
 
                 h1 {
+                    font-family: R-medium;
                     color: white;
                 }
 
                 p {
+                    font-family: R-light;
                     color: white;
                 }
             }
@@ -146,6 +213,8 @@
             align-items: center;
 
             h1 {
+                color: $dark-gray;
+                font-family: R-medium;
                 padding-top: 5vh;
                 width: 45vw;
                 text-align: center;
@@ -156,16 +225,480 @@
             }
 
             p {
+                font-family: R-light;
+                color: $light-gray;
                 width: 35vw;
                 text-align: center;
             }
         }
-        .div2{
-            .text-area{
+
+        .div2 {
+            .text-area {
                 height: 45vh;
+
+                h2 {
+                    font-family: R-medium;
+                    color: $dark-gray;
+                }
+
+                p {
+                    font-family: R-light;
+                    color: $light-gray;
+                }
+
+                .text-area2 {
+                    .left-side {
+                        i {
+                            color: $l-blue;
+                        }
+
+                        p {
+                            font-family: R-light;
+                            color: $light-gray;
+                        }
+                    }
+
+                    .right-side {
+                        i {
+                            color: $l-blue;
+                        }
+
+                        p {
+                            font-family: R-light;
+                            color: $light-gray;
+                        }
+                    }
+                }
             }
         }
     }
-    // ! section3 End
 
+    // ! section3 End
+    // todo section4 Start
+    .section4 {
+        background-image: url(../../../../public/img/call-bg.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 50vh;
+        background-attachment: fixed;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(0, 102, 255, 0.568);
+            height: 50vh;
+            width: 100%;
+        }
+
+        .div1 {
+            z-index: 4;
+            height: 40vh;
+            width: 40vw;
+
+            h1 {
+                font-family: R-medium;
+            }
+
+            p {
+                font-family: R-light;
+                width: 35vw;
+            }
+
+            .div11 {
+                button:first-child {
+                    opacity: 1;
+                    border: none;
+                    background-color: rgb(255, 255, 255);
+                    color: $l-blue;
+                    font-family: R-regular;
+                    width: 11vw;
+                    border-radius: 5px;
+                    border: 1px solid white;
+
+
+                }
+
+                button:last-child {
+                    opacity: 1;
+                    background-color: transparent;
+                    color: white;
+                    font-family: R-regular;
+                    width: 11vw;
+                    border: 1px solid white;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+    // todo section4 End
+    // todo section5 Start
+    .section5 {
+        background-color: $wwhite;
+        padding: 5vh 0;
+
+        .div1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                font-family: R-medium;
+                color: $dark-gray;
+                padding-top: 5vh;
+                width: 45vw;
+                text-align: center;
+            }
+
+            img {
+                padding: 3vh 0;
+            }
+
+            p {
+                font-family: R-light;
+                color: $light-gray;
+                width: 35vw;
+                text-align: center;
+            }
+        }
+
+        .div2 {
+            padding: 10vh 0;
+
+            div {
+                img {
+                    width: 24vw;
+                }
+            }
+        }
+    }
+
+    // todo section5 End
+    // ? section6 Start
+    // ---------full bootstart. modification just on widths---------
+    .section6 {
+        .div1 {
+            h1 {
+                font-family: R-medium;
+                width: 45vw;
+            }
+
+            p {
+                font-family: R-light;
+                width: 35vw;
+            }
+        }
+    }
+
+    // ? section6 End
+    // todo section7 Start
+    .section7 {
+        background-color: $wwhite;
+        padding: 5vh 0;
+
+        .div1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                font-family: R-medium;
+                color: $dark-gray;
+                padding-top: 5vh;
+                width: 45vw;
+                text-align: center;
+            }
+
+            img {
+                padding: 3vh 0;
+            }
+
+            p {
+                font-family: R-light;
+                color: $light-gray;
+                width: 35vw;
+                text-align: center;
+            }
+        }
+
+        .div2 {
+            .cards {
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 30px 0 rgba(0, 0, 0, 0.19);
+                padding: 5vh 2vw;
+
+                div {
+                    i:first-child {
+                        color: $l-blue;
+                    }
+                }
+
+                .text-area {
+                    height: 25vh;
+
+                    i:first-child {
+                        font-size: 60px;
+                    }
+
+                    div {
+                        h4 {
+                            color: $dark-gray;
+                            font-family: R-medium;
+                        }
+
+                        h2 {
+                            color: $l-blue;
+                            font-family: R-medium;
+
+                            span {
+                                color: $light-gray;
+                                font-size: 18px;
+                                font-family: R-light;
+                            }
+                        }
+                    }
+                }
+
+                .cardd {
+                    height: 38vh;
+                    width: 20vw;
+
+                    div {
+                        width: 15vw;
+
+                        p {
+                            color: $light-gray;
+                            font-family: R-light;
+                        }
+
+                        .fa-circle-check {
+                            color: $l-blue;
+                        }
+
+                        .fa-circle-xmark {
+                            color: $light-gray;
+                        }
+                    }
+
+                    button {
+                        width: 17vw;
+                    }
+                }
+            }
+        }
+    }
+
+    // todo section7 End
+    // ! section8 Start
+    .section8 {
+        padding: 5vh 0;
+
+        .div1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                font-family: R-medium;
+                color: $dark-gray;
+                padding-top: 5vh;
+                width: 45vw;
+                text-align: center;
+            }
+
+            img {
+                padding: 3vh 0;
+            }
+
+            p {
+                font-family: R-light;
+                color: $light-gray;
+                width: 35vw;
+                text-align: center;
+            }
+        }
+
+        .div2 {
+            .card {
+                border: none;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 30px 0 rgba(0, 0, 0, 0.19);
+
+                div {
+                    h5 {
+                        font-family: R-medium;
+                        color: $dark-gray;
+                    }
+
+                    p {
+                        font-family: R-light;
+                        color: $light-gray;
+                    }
+                }
+            }
+        }
+    }
+
+    // ! section8 End
+    // ! section9 Start
+    .section9 {
+        position: relative;
+
+        &::before {
+            content: '';
+            background-color: rgba(0, 102, 255, 0.534);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 37vh;
+            width: 100%;
+        }
+
+        .background-img {
+            padding: 5vh 5vw;
+            background-image: url(../../../../public/img/client-bg.jpg);
+            background-repeat: no-repeat;
+            height: 37vh;
+
+            .area {
+                z-index: 4;
+
+                img {
+                    width: 10vw;
+                }
+            }
+        }
+    }
+
+    // ! section9 End
+    // ? section10 Start
+    .section10 {
+        padding: 5vh 0;
+
+        .div1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                font-family: R-medium;
+                color: $dark-gray;
+                padding-top: 5vh;
+                width: 45vw;
+                text-align: center;
+            }
+
+            img {
+                padding: 3vh 0;
+            }
+
+            p {
+                font-family: R-light;
+                color: $light-gray;
+                width: 35vw;
+                text-align: center;
+            }
+        }
+
+        .div2 {
+            .inputs {
+                input {
+                    width: 15vw;
+                    height: 7vh;
+                    padding: 1vh 1vw;
+                    border-radius: 5px;
+                    border: none;
+                    border: 1px solid rgba(128, 128, 128, 0.190);
+
+                    &::placeholder {
+                        font-family: R-light;
+                        color: $light-gray;
+                    }
+                }
+
+                select {
+                    width: 15vw;
+                    height: 7vh;
+                    padding: 1vh 1vw;
+                    border-radius: 5px;
+                    border: none;
+                    border: 1px solid rgba(128, 128, 128, 0.190);
+
+                    &::placeholder {
+                        font-family: R-light;
+                        color: $light-gray;
+                    }
+                }
+
+                textarea {
+                    padding: 1vh 1vw;
+                    width: 100%;
+                    height: 30vh;
+                    border-radius: 5px;
+                    border: none;
+                    border: 1px solid rgba(128, 128, 128, 0.39);
+
+                    &::placeholder {
+                        font-family: R-light;
+                        color: $light-gray;
+                    }
+                }
+
+                div {
+                    p {
+                        font-family: R-regular;
+                        color: $light-gray;
+                    }
+                }
+            }
+        }
+    }
+
+    // ? section10 End
+    // ! section11 Start
+    .section11 {
+        background-color: $v-l-blue;
+
+        .div1 {
+            height: 40vh;
+
+            h3 {
+                font-family: R-medium;
+                color: $dark-gray;
+            }
+
+            p {
+                width: 35vw;
+                font-family: R-regular;
+                color: $light-gray;
+            }
+        }
+
+        .div12 {
+            input {
+                width: 22vw;
+                height: 8vh;
+                padding: 1vh 1vw;
+                border-radius: 5px;
+                border: none;
+                &::placeholder {
+                    font-family: R-light;
+                    color: $light-gray;
+                }
+            }
+
+            button {
+                background-color: $l-blue;
+                border-radius: 5px;
+                width: 13vw;
+                height: 8vh;
+                border: none;
+                font-family: R-regular;
+                font-size: 15px;
+            }
+        }
+    }
+
+    // ! section11 End
 }
