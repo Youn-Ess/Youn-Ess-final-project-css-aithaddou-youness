@@ -12342,6 +12342,25 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.uupp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+}
+.uupp a {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  color: white;
+  background-color: #1a76d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .main .carousel .div11 .img-slider1 {
   background-image: url(../../../../public/img/slider.jpg);
   height: 100vh;
@@ -13218,6 +13237,7 @@ textarea.form-control-lg {
     display: flex;
     justify-content: center;
     z-index: inherit;
+    padding-bottom: 10vw;
   }
   .main .section4 .div1 .div11 button:first-child {
     width: 30vw;
