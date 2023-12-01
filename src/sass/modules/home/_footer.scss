@@ -9,6 +9,7 @@ footer {
             .div1 {
 
                 gap: 3vw;
+
                 ul {
                     width: 50%;
                     list-style-type: none;
@@ -60,6 +61,10 @@ footer {
                         border-radius: 0 4px 4px 0;
                         background-color: white;
                         padding: 1.5vh 0;
+                        transition: 0.3s;
+                        &:hover{
+                            color: $dark-gray;
+                        }
                     }
                 }
             }
@@ -81,11 +86,76 @@ footer {
                     border: 1px solid white;
                     border-radius: 50%;
                     padding: 10px;
+                    transition: 0.3s;
+
+                    &:hover{
+                        color: $l-blue;
+                        background-color: white;
+                    }
 
                 }
             }
 
 
+        }
+    }
+}
+
+@media (max-width:430px) {
+    footer {
+        .container {
+            padding: 3vh 0;
+            display: flex;
+            flex-direction: column;
+
+            .area:nth-child(2) {
+                height: 65vh;
+
+                .div1 {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2vw;
+
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2vw;
+                    }
+                }
+            }
+
+            .area:nth-child(3) {
+                .div1 {
+                    div {
+                        div {
+                            display: flex;
+                            justify-content: space-between;
+                        }
+                    }
+                }
+            }
+
+            .area:nth-child(4) {
+                .div1 {
+                    .div11 {
+                        display: flex;
+                        align-items: center;
+
+                        input {
+                            width: 80%;
+                        }
+
+                        i {
+                            width: 20%;
+                        }
+                    }
+                }
+            }
+
+            .area {
+                width: 100%;
+                padding: 0 5vw;
+            }
         }
     }
 }

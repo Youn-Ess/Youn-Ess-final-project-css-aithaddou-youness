@@ -8,7 +8,8 @@
                 height: 100vh;
 
                 .text-area {
-                    width: 40vw;
+                    padding-left: 10vw;
+                    width: 45vw;
 
                     h1 {
                         font-family: R-black;
@@ -21,11 +22,39 @@
                     div {
                         button:first-child {
                             width: 15vw;
+                            position: relative;
+                            display: inline-block;
+                            color: white;
+                            background-image: linear-gradient($dark-gray, $dark-gray);
+                            background-position: 50% 50%;
+                            background-repeat: no-repeat;
+                            background-size: 0% 100%;
+                            transition: background-size .5s, color .5s;
+
+                            &:hover {
+                                background-size: 100% 100%;
+                                color: #fff;
+                            }
                         }
+
 
                         button:last-child {
                             width: 7vw;
+                            position: relative;
+                            display: inline-block;
+                            color: white;
+                            background-image: linear-gradient($l-blue, $l-blue);
+                            background-position: 50% 50%;
+                            background-repeat: no-repeat;
+                            background-size: 0% 100%;
+                            transition: background-size .5s, color .5s;
+
+                            &:hover {
+                                background-size: 100% 100%;
+                                color: #fff;
+                            }
                         }
+
                     }
 
                 }
@@ -36,7 +65,8 @@
                 height: 100vh;
 
                 .text-area {
-                    width: 40vw;
+                    padding-left: 10vw;
+                    width: 45vw;
 
                     h1 {
                         font-family: R-black;
@@ -49,11 +79,39 @@
                     div {
                         button:first-child {
                             width: 15vw;
+                            position: relative;
+                            display: inline-block;
+                            color: white;
+                            background-image: linear-gradient($dark-gray, $dark-gray);
+                            background-position: 50% 50%;
+                            background-repeat: no-repeat;
+                            background-size: 0% 100%;
+                            transition: background-size .5s, color .5s;
+
+                            &:hover {
+                                background-size: 100% 100%;
+                                color: #fff;
+                            }
                         }
+
 
                         button:last-child {
                             width: 7vw;
+                            position: relative;
+                            display: inline-block;
+                            color: white;
+                            background-image: linear-gradient($l-blue, $l-blue);
+                            background-position: 50% 50%;
+                            background-repeat: no-repeat;
+                            background-size: 0% 100%;
+                            transition: background-size .5s, color .5s;
+
+                            &:hover {
+                                background-size: 100% 100%;
+                                color: #fff;
+                            }
                         }
+
                     }
                 }
             }
@@ -63,7 +121,8 @@
                 height: 100vh;
 
                 .text-area {
-                    width: 40vw;
+                    padding-left: 10vw;
+                    width: 45vw;
 
                     h1 {
                         font-family: R-black;
@@ -76,11 +135,39 @@
                     div {
                         button:first-child {
                             width: 15vw;
+                            position: relative;
+                            display: inline-block;
+                            color: white;
+                            background-image: linear-gradient($dark-gray, $dark-gray);
+                            background-position: 50% 50%;
+                            background-repeat: no-repeat;
+                            background-size: 0% 100%;
+                            transition: background-size .5s, color .5s;
+
+                            &:hover {
+                                background-size: 100% 100%;
+                                color: #fff;
+                            }
                         }
+
 
                         button:last-child {
                             width: 7vw;
+                            position: relative;
+                            display: inline-block;
+                            color: white;
+                            background-image: linear-gradient($l-blue, $l-blue);
+                            background-position: 50% 50%;
+                            background-repeat: no-repeat;
+                            background-size: 0% 100%;
+                            transition: background-size .5s, color .5s;
+
+                            &:hover {
+                                background-size: 100% 100%;
+                                color: #fff;
+                            }
                         }
+
                     }
                 }
             }
@@ -136,7 +223,15 @@
                     border-radius: 50%;
                     padding: 30px;
                     color: $l-blue;
+                    transition: 0.3s;
+
+                    &:hover {
+                        background-color: $l-blue;
+                        color: white;
+
+                    }
                 }
+
 
                 h3 {
                     color: $dark-gray;
@@ -184,7 +279,15 @@
                     border: 1px solid white;
                     border-radius: 50%;
                     padding: 25px;
+                    transition: 0.3s;
+
+                    &:hover {
+                        color: $l-blue;
+                        background-color: white;
+
+                    }
                 }
+
 
                 h1 {
                     font-family: R-medium;
@@ -239,6 +342,27 @@
                 h2 {
                     font-family: R-medium;
                     color: $dark-gray;
+
+                    position: relative;
+
+                    &:hover {
+                        color: $l-blue !important;
+                    }
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        bottom: -18%;
+                        left: 0;
+                        height: 4px;
+                        width: 9%;
+                        transition: 0.3s;
+                        background: $l-blue;
+                    }
+
+                    &:hover::after {
+                        width: 26%;
+                    }
                 }
 
                 p {
@@ -247,6 +371,7 @@
                 }
 
                 .text-area2 {
+
                     .left-side {
                         i {
                             color: $l-blue;
@@ -268,6 +393,13 @@
                             color: $light-gray;
                         }
                     }
+                }
+            }
+
+            .video {
+                video {
+                    width: 600px !important;
+                    height: 400px !important;
                 }
             }
         }
@@ -309,7 +441,6 @@
 
             .div11 {
                 button:first-child {
-                    opacity: 1;
                     border: none;
                     background-color: rgb(255, 255, 255);
                     color: $l-blue;
@@ -318,17 +449,44 @@
                     border-radius: 5px;
                     border: 1px solid white;
 
+                    position: relative;
+                    display: inline-block;
+                    background-image: linear-gradient($l-blue, $l-blue);
+                    background-position: 50% 50%;
+                    background-repeat: no-repeat;
+                    background-size: 0% 100%;
+                    transition: background-size .5s, color .5s;
 
+                    &:hover {
+                        background-size: 100% 100%;
+                        color: white;
+                    }
                 }
 
+
                 button:last-child {
-                    opacity: 1;
                     background-color: transparent;
                     color: white;
                     font-family: R-regular;
                     width: 11vw;
                     border: 1px solid white;
                     border-radius: 5px;
+
+                    position: relative;
+                    display: inline-block;
+                    background-image: linear-gradient($l-blue, $l-blue);
+                    background-position: 50% 50%;
+                    background-repeat: no-repeat;
+                    background-size: 0% 100%;
+                    transition: background-size .5s, color .5s;
+
+                    &:hover {
+                        background-size: 100% 100%;
+                        color: white;
+                        border: 1px solid $l-blue;
+                    }
+
+
                 }
             }
         }
@@ -355,6 +513,7 @@
 
             img {
                 padding: 3vh 0;
+
             }
 
             p {
@@ -371,6 +530,11 @@
             div {
                 img {
                     width: 24vw;
+                    transition: 0.3s;
+
+                    &:hover {
+                        width: 24.5vw;
+                    }
                 }
             }
         }
@@ -389,6 +553,16 @@
             p {
                 font-family: R-light;
                 width: 35vw;
+            }
+        }
+
+        .div2 {
+            h3 {
+                transition: 0.3s;
+
+                &:hover {
+                    color: $l-blue !important;
+                }
             }
         }
     }
@@ -428,6 +602,26 @@
             .cards {
                 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 30px 0 rgba(0, 0, 0, 0.19);
                 padding: 5vh 2vw;
+                position: relative;
+
+                &:hover {
+                    color: $l-blue !important;
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height: 4px;
+                    width: 0;
+                    transition: 0.3s;
+                    background: $l-blue;
+                }
+
+                &:hover::after {
+                    width: 100%;
+                }
 
                 div {
                     i:first-child {
@@ -484,6 +678,20 @@
 
                     button {
                         width: 17vw;
+
+                        position: relative;
+                        display: inline-block;
+                        color: white;
+                        background-image: linear-gradient($dark-gray, $dark-gray);
+                        background-position: 50% 50%;
+                        background-repeat: no-repeat;
+                        background-size: 0% 100%;
+                        transition: background-size .5s, color .5s;
+
+                        &:hover {
+                            background-size: 100% 100%;
+                            color: #fff;
+                        }
                     }
                 }
             }
@@ -525,8 +733,46 @@
                 border: none;
                 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 30px 0 rgba(0, 0, 0, 0.19);
 
+                position: relative;
+
+                &:hover {
+                    color: $l-blue !important;
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0%;
+                    left: 0;
+                    height: 4px;
+                    width: 0;
+                    transition: 0.3s;
+                    background: $l-blue;
+                }
+
+                &:hover::after {
+                    width: 100%;
+                }
+
                 div {
-                    h5 {
+
+                    a {
+                        position: relative;
+                        display: inline-block;
+                        color: white;
+                        background-image: linear-gradient($dark-gray, $dark-gray);
+                        background-position: 50% 50%;
+                        background-repeat: no-repeat;
+                        background-size: 0% 100%;
+                        transition: background-size .5s, color .5s;
+
+                        &:hover {
+                            background-size: 100% 100%;
+                            color: #fff;
+                        }
+                    }
+
+                    h4 {
                         font-family: R-medium;
                         color: $dark-gray;
                     }
@@ -615,6 +861,26 @@
                         font-family: R-light;
                         color: $light-gray;
                     }
+
+
+                }
+
+                div:last-child {
+                    button {
+                        position: relative;
+                        display: inline-block;
+                        color: white;
+                        background-image: linear-gradient($dark-gray, $dark-gray);
+                        background-position: 50% 50%;
+                        background-repeat: no-repeat;
+                        background-size: 0% 100%;
+                        transition: background-size .5s, color .5s;
+
+                        &:hover {
+                            background-size: 100% 100%;
+                            color: #fff;
+                        }
+                    }
                 }
 
                 select {
@@ -682,6 +948,7 @@
                 padding: 1vh 1vw;
                 border-radius: 5px;
                 border: none;
+
                 &::placeholder {
                     font-family: R-light;
                     color: $light-gray;
@@ -696,9 +963,456 @@
                 border: none;
                 font-family: R-regular;
                 font-size: 15px;
+
+                position: relative;
+                display: inline-block;
+                color: white;
+                background-image: linear-gradient($dark-gray, $dark-gray);
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+                background-size: 0% 100%;
+                transition: background-size .5s, color .5s;
+
+                &:hover {
+                    background-size: 100% 100%;
+                    color: #fff;
+                }
+
+
             }
         }
     }
 
     // ! section11 End
+}
+
+@media (max-width:430px) {
+    .main {
+
+        // todo carousel start
+        .div1 {
+            padding-top: 9vh;
+
+            .div11 {
+
+                .img-slider1,
+                .img-slider2,
+                .img-slider3 {
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 42vh;
+
+                    .text-area {
+                        width: 100%;
+                        padding: 20px;
+
+                        h1 {
+                            font-size: 23px;
+                        }
+
+                        p {
+                            font-size: 13px;
+                        }
+
+                        div {
+                            button:first-child {
+                                width: 100%;
+                                height: 20%;
+                                border-radius: 3px;
+                            }
+
+                            button:last-child {
+                                width: 100%;
+                                height: 20%;
+                                border-radius: 3px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // todo carousel end
+        // ?section1 start
+        .section1 {
+            .div1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h1 {
+                    width: 100%;
+                }
+
+                p {
+                    width: 100%;
+                }
+            }
+
+            .div2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                div {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    i {
+                        font-size: 30px;
+                    }
+
+                    p {
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+        }
+
+        // ?section1 end
+        // !section2 start
+        .section2 {
+            position: relative;
+
+            &::before {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                background-color: rgba(0, 102, 255, 0.329);
+                height: 120vh;
+                width: 100%;
+            }
+
+
+            .background-img {
+                padding: 10vh 0;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 120vh;
+
+                .area {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    div {
+
+                        h1,
+                        p {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        // !section2 end
+        // !section3 start
+        .section3 {
+            .div1 {
+
+                h1 {
+                    width: 100%;
+
+                }
+
+                p {
+                    width: 100%;
+                }
+            }
+
+            .div2 {
+                .text-area {
+                    .text-area2 {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 3vw;
+
+                        .left-side {
+                            div {
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+
+                        .right-side {
+                            div {
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                    }
+                }
+
+                .video {
+                    video {
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+
+        // !section3 end
+        // todo section4 start
+        .section4 {
+            padding: 8vh 5vw;
+
+            .div1 {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 3vw;
+
+                h1,
+                p {
+                    width: 100%;
+                    text-align: center;
+                    z-index: inherit;
+                }
+
+                .div11 {
+                    display: flex;
+                    justify-content: center;
+                    z-index: inherit;
+
+                    button:first-child {
+                        width: 30vw;
+                        font-size: 15px;
+                        opacity: 1;
+                    }
+
+                    button:last-child {
+                        width: 35vw;
+                        font-size: 15px;
+                        display: flex;
+                        align-items: center;
+                        gap: 3px;
+                    }
+                }
+            }
+
+            // todo section4 End
+        }
+
+        // todo section5 Start
+        .section5 {
+            .div1 {
+
+                h1,
+                p {
+                    width: 100%;
+                }
+            }
+
+            .div2 {
+                div {
+                    img {
+                        width: 100%;
+                        padding: 2vh 2vw;
+                    }
+                }
+            }
+        }
+
+        // todo section5 End
+        // ? section6 start
+        .section6 {
+            .div1 {
+
+                h1,
+                p {
+                    width: 100%;
+                }
+            }
+
+        }
+
+        // ? section6 End
+        // todo section7 start
+        .section7 {
+            .div1 {
+
+                h1,
+                p {
+                    width: 100vw;
+                }
+            }
+
+            .div2 {
+                .cards {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    .text-area {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+                    .cardd {
+                        width: 70%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        div {
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                        }
+
+                        button {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        // todo section7 End
+        // ! section8 start
+        .section8 {
+            .div1 {
+
+                h1,
+                p {
+                    width: 100%;
+                }
+            }
+        }
+
+        // ! section8 End
+        // ! section9 start
+        .section9 {
+            position: relative;
+
+            &::before {
+                content: '';
+                background-color: rgba(0, 102, 255, 0.534);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 100vh;
+                width: 100%;
+            }
+
+            .background-img {
+                background-size: cover;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+
+                .area {
+                    img {
+                        width: 40vw;
+                    }
+                }
+            }
+        }
+
+        // ! section9 End
+        // ? section10 Start
+        .section10 {
+
+            .div1 {
+
+                h1,
+                p {
+                    width: 100%;
+                }
+            }
+
+            .div2 {
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 2vw;
+
+                .inputs {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2vw;
+
+                    input {
+                        width: 49%;
+                    }
+
+                    select {
+                        width: 49%;
+                    }
+
+                    textarea {
+                        width: 99%;
+                    }
+
+                    div {
+                        button {
+                            width: 100%;
+                        }
+
+                        p {
+                            text-align: center;
+                        }
+                    }
+
+                }
+
+                .img {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        // ? section10 End
+        // ! section11 Start
+        .section11 {
+            height: 50vh;
+
+            .div1 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 3vw;
+
+                .div11 {
+
+                    h3,
+                    p {
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+
+                .div12 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    input {
+                        width: 70vw;
+                        padding: 2vh 2vw;
+                    }
+
+                    button {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+
+        // ! section11 End
+    }
 }

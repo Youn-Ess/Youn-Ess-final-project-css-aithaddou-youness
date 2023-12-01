@@ -12347,7 +12347,8 @@ textarea.form-control-lg {
   height: 100vh;
 }
 .main .carousel .div11 .img-slider1 .text-area {
-  width: 40vw;
+  padding-left: 10vw;
+  width: 45vw;
 }
 .main .carousel .div11 .img-slider1 .text-area h1, .main .carousel .div11 .img-slider1 .text-area .h1 {
   font-family: R-black;
@@ -12357,16 +12358,41 @@ textarea.form-control-lg {
 }
 .main .carousel .div11 .img-slider1 .text-area div button:first-child {
   width: 15vw;
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#2c2d3f, #2c2d3f);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.main .carousel .div11 .img-slider1 .text-area div button:first-child:hover {
+  background-size: 100% 100%;
+  color: #fff;
 }
 .main .carousel .div11 .img-slider1 .text-area div button:last-child {
   width: 7vw;
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#1a76d1, #1a76d1);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.main .carousel .div11 .img-slider1 .text-area div button:last-child:hover {
+  background-size: 100% 100%;
+  color: #fff;
 }
 .main .carousel .div11 .img-slider2 {
   background-image: url(../../../../public/img/slider2.jpg);
   height: 100vh;
 }
 .main .carousel .div11 .img-slider2 .text-area {
-  width: 40vw;
+  padding-left: 10vw;
+  width: 45vw;
 }
 .main .carousel .div11 .img-slider2 .text-area h1, .main .carousel .div11 .img-slider2 .text-area .h1 {
   font-family: R-black;
@@ -12376,16 +12402,41 @@ textarea.form-control-lg {
 }
 .main .carousel .div11 .img-slider2 .text-area div button:first-child {
   width: 15vw;
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#2c2d3f, #2c2d3f);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.main .carousel .div11 .img-slider2 .text-area div button:first-child:hover {
+  background-size: 100% 100%;
+  color: #fff;
 }
 .main .carousel .div11 .img-slider2 .text-area div button:last-child {
   width: 7vw;
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#1a76d1, #1a76d1);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.main .carousel .div11 .img-slider2 .text-area div button:last-child:hover {
+  background-size: 100% 100%;
+  color: #fff;
 }
 .main .carousel .div11 .img-slider3 {
   background-image: url(../../../../public/img/slider3.jpg);
   height: 100vh;
 }
 .main .carousel .div11 .img-slider3 .text-area {
-  width: 40vw;
+  padding-left: 10vw;
+  width: 45vw;
 }
 .main .carousel .div11 .img-slider3 .text-area h1, .main .carousel .div11 .img-slider3 .text-area .h1 {
   font-family: R-black;
@@ -12395,9 +12446,33 @@ textarea.form-control-lg {
 }
 .main .carousel .div11 .img-slider3 .text-area div button:first-child {
   width: 15vw;
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#2c2d3f, #2c2d3f);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.main .carousel .div11 .img-slider3 .text-area div button:first-child:hover {
+  background-size: 100% 100%;
+  color: #fff;
 }
 .main .carousel .div11 .img-slider3 .text-area div button:last-child {
   width: 7vw;
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#1a76d1, #1a76d1);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.main .carousel .div11 .img-slider3 .text-area div button:last-child:hover {
+  background-size: 100% 100%;
+  color: #fff;
 }
 .main .section1 {
   padding: 5vh 0;
@@ -12441,6 +12516,11 @@ textarea.form-control-lg {
   border-radius: 50%;
   padding: 30px;
   color: #1a76d1;
+  transition: 0.3s;
+}
+.main .section1 .div2 div i:hover {
+  background-color: #1a76d1;
+  color: white;
 }
 .main .section1 .div2 div h3, .main .section1 .div2 div .h3 {
   color: #2c2d3f;
@@ -12478,6 +12558,11 @@ textarea.form-control-lg {
   border: 1px solid white;
   border-radius: 50%;
   padding: 25px;
+  transition: 0.3s;
+}
+.main .section2 .background-img .area i:hover {
+  color: #1a76d1;
+  background-color: white;
 }
 .main .section2 .background-img .area h1, .main .section2 .background-img .area .h1 {
   font-family: R-medium;
@@ -12517,6 +12602,23 @@ textarea.form-control-lg {
 .main .section3 .div2 .text-area h2, .main .section3 .div2 .text-area .h2 {
   font-family: R-medium;
   color: #2c2d3f;
+  position: relative;
+}
+.main .section3 .div2 .text-area h2:hover, .main .section3 .div2 .text-area .h2:hover {
+  color: #1a76d1 !important;
+}
+.main .section3 .div2 .text-area h2::after, .main .section3 .div2 .text-area .h2::after {
+  content: "";
+  position: absolute;
+  bottom: -18%;
+  left: 0;
+  height: 4px;
+  width: 9%;
+  transition: 0.3s;
+  background: #1a76d1;
+}
+.main .section3 .div2 .text-area h2:hover::after, .main .section3 .div2 .text-area .h2:hover::after {
+  width: 26%;
 }
 .main .section3 .div2 .text-area p {
   font-family: R-light;
@@ -12535,6 +12637,10 @@ textarea.form-control-lg {
 .main .section3 .div2 .text-area .text-area2 .right-side p {
   font-family: R-light;
   color: #888888;
+}
+.main .section3 .div2 .video video {
+  width: 600px !important;
+  height: 400px !important;
 }
 .main .section4 {
   background-image: url(../../../../public/img/call-bg.jpg);
@@ -12566,7 +12672,6 @@ textarea.form-control-lg {
   width: 35vw;
 }
 .main .section4 .div1 .div11 button:first-child {
-  opacity: 1;
   border: none;
   background-color: rgb(255, 255, 255);
   color: #1a76d1;
@@ -12574,15 +12679,37 @@ textarea.form-control-lg {
   width: 11vw;
   border-radius: 5px;
   border: 1px solid white;
+  position: relative;
+  display: inline-block;
+  background-image: linear-gradient(#1a76d1, #1a76d1);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.main .section4 .div1 .div11 button:first-child:hover {
+  background-size: 100% 100%;
+  color: white;
 }
 .main .section4 .div1 .div11 button:last-child {
-  opacity: 1;
   background-color: transparent;
   color: white;
   font-family: R-regular;
   width: 11vw;
   border: 1px solid white;
   border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  background-image: linear-gradient(#1a76d1, #1a76d1);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.main .section4 .div1 .div11 button:last-child:hover {
+  background-size: 100% 100%;
+  color: white;
+  border: 1px solid #1a76d1;
 }
 .main .section5 {
   background-color: #f9f9f9;
@@ -12614,6 +12741,10 @@ textarea.form-control-lg {
 }
 .main .section5 .div2 div img {
   width: 24vw;
+  transition: 0.3s;
+}
+.main .section5 .div2 div img:hover {
+  width: 24.5vw;
 }
 .main .section6 .div1 h1, .main .section6 .div1 .h1 {
   font-family: R-medium;
@@ -12622,6 +12753,12 @@ textarea.form-control-lg {
 .main .section6 .div1 p {
   font-family: R-light;
   width: 35vw;
+}
+.main .section6 .div2 h3, .main .section6 .div2 .h3 {
+  transition: 0.3s;
+}
+.main .section6 .div2 h3:hover, .main .section6 .div2 .h3:hover {
+  color: #1a76d1 !important;
 }
 .main .section7 {
   background-color: #f9f9f9;
@@ -12651,6 +12788,23 @@ textarea.form-control-lg {
 .main .section7 .div2 .cards {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 30px 0 rgba(0, 0, 0, 0.19);
   padding: 5vh 2vw;
+  position: relative;
+}
+.main .section7 .div2 .cards:hover {
+  color: #1a76d1 !important;
+}
+.main .section7 .div2 .cards::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 0;
+  transition: 0.3s;
+  background: #1a76d1;
+}
+.main .section7 .div2 .cards:hover::after {
+  width: 100%;
 }
 .main .section7 .div2 .cards div i:first-child {
   color: #1a76d1;
@@ -12693,6 +12847,18 @@ textarea.form-control-lg {
 }
 .main .section7 .div2 .cards .cardd button {
   width: 17vw;
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#2c2d3f, #2c2d3f);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.main .section7 .div2 .cards .cardd button:hover {
+  background-size: 100% 100%;
+  color: #fff;
 }
 .main .section8 {
   padding: 5vh 0;
@@ -12721,8 +12887,39 @@ textarea.form-control-lg {
 .main .section8 .div2 .card {
   border: none;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 30px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
 }
-.main .section8 .div2 .card div h5, .main .section8 .div2 .card div .h5 {
+.main .section8 .div2 .card:hover {
+  color: #1a76d1 !important;
+}
+.main .section8 .div2 .card::after {
+  content: "";
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  height: 4px;
+  width: 0;
+  transition: 0.3s;
+  background: #1a76d1;
+}
+.main .section8 .div2 .card:hover::after {
+  width: 100%;
+}
+.main .section8 .div2 .card div a {
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#2c2d3f, #2c2d3f);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.main .section8 .div2 .card div a:hover {
+  background-size: 100% 100%;
+  color: #fff;
+}
+.main .section8 .div2 .card div h4, .main .section8 .div2 .card div .h4 {
   font-family: R-medium;
   color: #2c2d3f;
 }
@@ -12790,6 +12987,20 @@ textarea.form-control-lg {
   font-family: R-light;
   color: #888888;
 }
+.main .section10 .div2 .inputs div:last-child button {
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#2c2d3f, #2c2d3f);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.main .section10 .div2 .inputs div:last-child button:hover {
+  background-size: 100% 100%;
+  color: #fff;
+}
 .main .section10 .div2 .inputs select {
   width: 15vw;
   height: 7vh;
@@ -12852,13 +13063,310 @@ textarea.form-control-lg {
   border: none;
   font-family: R-regular;
   font-size: 15px;
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#2c2d3f, #2c2d3f);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.main .section11 .div12 button:hover {
+  background-size: 100% 100%;
+  color: #fff;
 }
 
-.header .navebar .div1 .ul1 a {
+@media (max-width: 430px) {
+  .main .div1 {
+    padding-top: 9vh;
+  }
+  .main .div1 .div11 .img-slider1,
+  .main .div1 .div11 .img-slider2,
+  .main .div1 .div11 .img-slider3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 42vh;
+  }
+  .main .div1 .div11 .img-slider1 .text-area,
+  .main .div1 .div11 .img-slider2 .text-area,
+  .main .div1 .div11 .img-slider3 .text-area {
+    width: 100%;
+    padding: 20px;
+  }
+  .main .div1 .div11 .img-slider1 .text-area h1, .main .div1 .div11 .img-slider1 .text-area .h1,
+  .main .div1 .div11 .img-slider2 .text-area h1,
+  .main .div1 .div11 .img-slider2 .text-area .h1,
+  .main .div1 .div11 .img-slider3 .text-area h1,
+  .main .div1 .div11 .img-slider3 .text-area .h1 {
+    font-size: 23px;
+  }
+  .main .div1 .div11 .img-slider1 .text-area p,
+  .main .div1 .div11 .img-slider2 .text-area p,
+  .main .div1 .div11 .img-slider3 .text-area p {
+    font-size: 13px;
+  }
+  .main .div1 .div11 .img-slider1 .text-area div button:first-child,
+  .main .div1 .div11 .img-slider2 .text-area div button:first-child,
+  .main .div1 .div11 .img-slider3 .text-area div button:first-child {
+    width: 100%;
+    height: 20%;
+    border-radius: 3px;
+  }
+  .main .div1 .div11 .img-slider1 .text-area div button:last-child,
+  .main .div1 .div11 .img-slider2 .text-area div button:last-child,
+  .main .div1 .div11 .img-slider3 .text-area div button:last-child {
+    width: 100%;
+    height: 20%;
+    border-radius: 3px;
+  }
+  .main .section1 .div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .section1 .div1 h1, .main .section1 .div1 .h1 {
+    width: 100%;
+  }
+  .main .section1 .div1 p {
+    width: 100%;
+  }
+  .main .section1 .div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .section1 .div2 div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .section1 .div2 div i {
+    font-size: 30px;
+  }
+  .main .section1 .div2 div p {
+    padding-bottom: 10px;
+  }
+  .main .section2 {
+    position: relative;
+  }
+  .main .section2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 102, 255, 0.329);
+    height: 120vh;
+    width: 100%;
+  }
+  .main .section2 .background-img {
+    padding: 10vh 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+  }
+  .main .section2 .background-img .area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .section2 .background-img .area div h1, .main .section2 .background-img .area div .h1,
+  .main .section2 .background-img .area div p {
+    text-align: center;
+  }
+  .main .section3 .div1 h1, .main .section3 .div1 .h1 {
+    width: 100%;
+  }
+  .main .section3 .div1 p {
+    width: 100%;
+  }
+  .main .section3 .div2 .text-area .text-area2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+  }
+  .main .section3 .div2 .text-area .text-area2 .left-side div {
+    display: flex;
+    align-items: center;
+  }
+  .main .section3 .div2 .text-area .text-area2 .right-side div {
+    display: flex;
+    align-items: center;
+  }
+  .main .section3 .div2 .video video {
+    width: 100% !important;
+  }
+  .main .section4 {
+    padding: 8vh 5vw;
+  }
+  .main .section4 .div1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vw;
+  }
+  .main .section4 .div1 h1, .main .section4 .div1 .h1,
+  .main .section4 .div1 p {
+    width: 100%;
+    text-align: center;
+    z-index: inherit;
+  }
+  .main .section4 .div1 .div11 {
+    display: flex;
+    justify-content: center;
+    z-index: inherit;
+  }
+  .main .section4 .div1 .div11 button:first-child {
+    width: 30vw;
+    font-size: 15px;
+    opacity: 1;
+  }
+  .main .section4 .div1 .div11 button:last-child {
+    width: 35vw;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+  .main .section5 .div1 h1, .main .section5 .div1 .h1,
+  .main .section5 .div1 p {
+    width: 100%;
+  }
+  .main .section5 .div2 div img {
+    width: 100%;
+    padding: 2vh 2vw;
+  }
+  .main .section6 .div1 h1, .main .section6 .div1 .h1,
+  .main .section6 .div1 p {
+    width: 100%;
+  }
+  .main .section7 .div1 h1, .main .section7 .div1 .h1,
+  .main .section7 .div1 p {
+    width: 100vw;
+  }
+  .main .section7 .div2 .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .section7 .div2 .cards .text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .section7 .div2 .cards .cardd {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main .section7 .div2 .cards .cardd div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .main .section7 .div2 .cards .cardd button {
+    width: 100%;
+  }
+  .main .section8 .div1 h1, .main .section8 .div1 .h1,
+  .main .section8 .div1 p {
+    width: 100%;
+  }
+  .main .section9 {
+    position: relative;
+  }
+  .main .section9::before {
+    content: "";
+    background-color: rgba(0, 102, 255, 0.534);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+  }
+  .main .section9 .background-img {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main .section9 .background-img .area img {
+    width: 40vw;
+  }
+  .main .section10 .div1 h1, .main .section10 .div1 .h1,
+  .main .section10 .div1 p {
+    width: 100%;
+  }
+  .main .section10 .div2 {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2vw;
+  }
+  .main .section10 .div2 .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+  }
+  .main .section10 .div2 .inputs input {
+    width: 49%;
+  }
+  .main .section10 .div2 .inputs select {
+    width: 49%;
+  }
+  .main .section10 .div2 .inputs textarea {
+    width: 99%;
+  }
+  .main .section10 .div2 .inputs div button {
+    width: 100%;
+  }
+  .main .section10 .div2 .inputs div p {
+    text-align: center;
+  }
+  .main .section10 .div2 .img img {
+    width: 100%;
+  }
+  .main .section11 {
+    height: 50vh;
+  }
+  .main .section11 .div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vw;
+  }
+  .main .section11 .div1 .div11 h3, .main .section11 .div1 .div11 .h3,
+  .main .section11 .div1 .div11 p {
+    width: 100%;
+    text-align: center;
+  }
+  .main .section11 .div1 .div12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main .section11 .div1 .div12 input {
+    width: 70vw;
+    padding: 2vh 2vw;
+  }
+  .main .section11 .div1 .div12 button {
+    width: 70%;
+  }
+}
+.header .navebar .div1 .ul1 li .links {
   font-family: R-medium;
   position: relative;
 }
-.header .navebar .div1 .ul1 a::after {
+.header .navebar .div1 .ul1 li .links:hover {
+  color: #1a76d1 !important;
+}
+.header .navebar .div1 .ul1 li .links::after {
   content: "";
   position: absolute;
   bottom: -18%;
@@ -12866,10 +13374,43 @@ textarea.form-control-lg {
   height: 4px;
   width: 0;
   transition: 0.3s;
-  background: blue;
+  background: #1a76d1;
 }
-.header .navebar .div1 .ul1 a:hover::after {
+.header .navebar .div1 .ul1 li .links:hover::after {
   width: 100%;
+}
+.header .navebar .div1 .ul1 li .dropdown-menu li a {
+  position: relative;
+}
+.header .navebar .div1 .ul1 li .dropdown-menu li a:hover {
+  color: #1a76d1 !important;
+}
+.header .navebar .div1 .ul1 li .dropdown-menu li a::after {
+  content: "";
+  position: absolute;
+  bottom: -18%;
+  left: 0;
+  height: 4px;
+  width: 0;
+  transition: 0.3s;
+  background: #1a76d1;
+}
+.header .navebar .div1 .ul1 li .dropdown-menu li a:hover::after {
+  width: 100%;
+}
+.header .navebar .div1 span button {
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#2c2d3f, #2c2d3f);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.5s, color 0.5s;
+}
+.header .navebar .div1 span button:hover {
+  background-size: 100% 100%;
+  color: #fff;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -12877,6 +13418,29 @@ textarea.form-control-lg {
   margin-top: 15%;
 }
 
+@media (max-width: 430px) {
+  .header .navebar .container .div1 .ul1 li .links::after {
+    content: "";
+    position: absolute;
+    bottom: -18%;
+    left: 0;
+    height: 4px;
+    width: 0;
+    transition: 0.3s;
+    background: #1a76d1;
+  }
+  .header .navebar .container .div1 .ul1 li .links:hover::after {
+    width: 15%;
+  }
+  .header .navebar .container .div1 .ul1 li .dropdown-menu {
+    position: relative;
+    margin-top: 2vh;
+    width: 5vw;
+  }
+  .header .navebar .container .div1 span button {
+    display: none;
+  }
+}
 footer {
   background-color: #1a76d1;
 }
@@ -12924,6 +13488,10 @@ footer .container .area:nth-child(4) .div1 .div11 i {
   border-radius: 0 4px 4px 0;
   background-color: white;
   padding: 1.5vh 0;
+  transition: 0.3s;
+}
+footer .container .area:nth-child(4) .div1 .div11 i:hover {
+  color: #2c2d3f;
 }
 footer .container .area {
   width: 18vw;
@@ -12940,6 +13508,50 @@ footer .container .area .div1 .i1 {
   border: 1px solid white;
   border-radius: 50%;
   padding: 10px;
+  transition: 0.3s;
+}
+footer .container .area .div1 .i1:hover {
+  color: #1a76d1;
+  background-color: white;
+}
+
+@media (max-width: 430px) {
+  footer .container {
+    padding: 3vh 0;
+    display: flex;
+    flex-direction: column;
+  }
+  footer .container .area:nth-child(2) {
+    height: 65vh;
+  }
+  footer .container .area:nth-child(2) .div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+  }
+  footer .container .area:nth-child(2) .div1 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+  }
+  footer .container .area:nth-child(3) .div1 div div {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .container .area:nth-child(4) .div1 .div11 {
+    display: flex;
+    align-items: center;
+  }
+  footer .container .area:nth-child(4) .div1 .div11 input {
+    width: 80%;
+  }
+  footer .container .area:nth-child(4) .div1 .div11 i {
+    width: 20%;
+  }
+  footer .container .area {
+    width: 100%;
+    padding: 0 5vw;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
